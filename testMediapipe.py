@@ -121,7 +121,7 @@ try:
         
         print(count)
         if count >= SLEEP_THRESHOLD :
-            cv2.putText(annotated_image, "Sleep detected", (20, 20), cv2.FONT_HERSHEY_SIMPLEX,0.5,TEXT_COLOR, 2)
+            cv2.putText(annotated_image, "Sleep detected", (20, 120), cv2.FONT_HERSHEY_SIMPLEX,0.5,TEXT_COLOR, 2)
             
         cv2.imshow(mat=annotated_image, winname='image') 
        
